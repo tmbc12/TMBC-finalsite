@@ -8178,6 +8178,12 @@ figcaption {
     width: 65rem;
     height: 40rem;
   }
+
+  .services_item-img_w.is--1 {
+    width: 30rem;
+    height: 40rem;
+
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -8378,6 +8384,7 @@ figcaption {
   .section-footer {
     padding-left: 2rem;
     padding-right: 2rem;
+
   }
 
   .services_item.is--2 {
@@ -8403,11 +8410,19 @@ figcaption {
   .services_item-w,
   .services_item-w.is--small {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+
+
 
   .services_item-img_w.is--1 {
     width: 44rem;
     height: 29rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
 
   .services_item-img_w.is--2 {
